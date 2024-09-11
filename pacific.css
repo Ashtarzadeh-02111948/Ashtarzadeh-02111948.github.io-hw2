@@ -2,31 +2,67 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
 body {
-	background-color: linear-gradient(white, rgb(81, 81, 224)); ;
-	color: #666666;
+	background-image: url("ptrbackground.jpg");
+	color: #00569f;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul {
-	font-size: 1.2em;
+	list-style-image: url('');
+	font-size: 20px;
+	list-style-type: none
 }
+
+nav a:link {
+	text-decoration: none;
+	color:rgb(8, 8, 109);
+	font-weight: bolder;
+}
+
 nav a:visited {
 	color: #344873;
+	text-decoration: none;
 }
+
 nav a:hover {
 	color: #FFFFFF;
+	text-decoration: none;
 }
 h1 {
+	background-image: url("sunset.jpg");
+	background-size: 100% 100%;
+	color: white;
 	margin-bottom: 0;
 	padding: 10px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 55px;
 }
 h2 {
 	color: #3399CC;
 }
-h1,
+
 h2 {
 	font-family: Georgia, "Times New Roman", serif;
 }
+
+.resort {
+	color:rgb(38, 110, 155);
+}
+
+ul {
+	list-style-image: url('marker.gif');
+	background-color: white;
+}
+
+img[src="coast.jpg"] {
+	position: relative;
+
+}
+
+#content {
+	background-color: white;
+}
+
 #contact {
 	font-size: 90%;
 }
@@ -34,6 +70,7 @@ dt {
 	color: #000033;
 }
 footer {
+	background-color: white;
 	font-family: Georgia, "Times New Roman", serif;
 }
 
