@@ -3,7 +3,7 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 }
 body {
 	background-image: url("https://i.postimg.cc/SNrfC3pF/ptrbackground.jpg");
-  background-repeat: repeat-x;
+    background-repeat: repeat-x;
 	background-color: #00569f;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -16,7 +16,7 @@ body {
 
 /* Formatting for navigation section  */
 nav {
-  width: 200px; /*changes the width of nav bar, underlaps content section */
+    width: 200px; /*changes the width of nav bar, underlaps content section */
 	height: 660px; /*changes the length of nav bar, but also the height of the content section */
 	background-color: #81ccf2; 
 	z-index: 0;
@@ -52,21 +52,21 @@ h1 {
 	background-image: url("https://i.postimg.cc/yYqbvw5D/sunset.jpg");
 	background-size: 100% 100%;
 	width: 890px;  /* changes the banner side to side width. Higher number makes it longer horizontally */
-  height: 35px; /* changes top down length of banner. Higher number makes it taller */
+    height: 35px; /* changes top down length of banner. Higher number makes it taller */
 	color: white; /* font color */
 	
 	margin-bottom: -1px; /* moves banner section up and down */
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 42px;
 	margin-left: 330px; /* Moves the top banner to the right when higher number entered */
-  padding: 20px; /* also changes top down thickness of banner. Higher number makes it taller */
+    padding: 20px; /* also changes top down thickness of banner. Higher number makes it taller */
 	z-index: 0; /* top banner overlaps */
 
 }
 
 h2 {
 	color: #3399CC;
-  font-family: Georgia, "Times New Roman", serif;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 
@@ -93,24 +93,26 @@ img[src="coast.jpg"] {
 	width: 670px; /* changes width of content area not including footer */
 	height: 540px; /* changes height of content area, affects footer */
 	padding: 30px;
-  margin-bottom: -10px; /* pushes footer down when higher number entered */
+    margin-bottom: -10px; /* pushes footer down when higher number entered */
 	
 }
 
 #contact {
 	font-size: 90%;
 }
+
 dt {
 	color: #000033;
 }
+
 footer {
 	background-color: white;
 	font-family: Georgia, "Times New Roman", serif;
-  font-size: 12px;
+    font-size: 12px;
 	margin-left: 530px; /* changes margin of footer horizontally. Higher = more to the right  */
 	padding: 30px;
 	width: 670px;
-  height: 40px;
-  padding-bottom: 5px; /* changes the bottom height of the footer  */
+    height: 40px;
+    padding-bottom: 5px; /* changes the bottom height of the footer  */
 }
 
