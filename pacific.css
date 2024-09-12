@@ -2,22 +2,21 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
 body {
-	background-image: url("ptrbackground.jpg");
-	/* below code to make the background image not repeat at the bottom of the page and uses a solid color as instructed */
-	background-repeat: repeat-x;
+	background-image: url("https://i.postimg.cc/SNrfC3pF/ptrbackground.jpg");
+  background-repeat: repeat-x;
 	background-color: #00569f;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 #wrapper {
 	margin-bottom: 400px;
-	margin-left: auto;
-	margin-right: auto;
+  
+  
 }
 
 /* Formatting for navigation section  */
 nav {
-    width: 200px; /*changes the width of nav bar, underlaps content section */
+  width: 200px; /*changes the width of nav bar, underlaps content section */
 	height: 660px; /*changes the length of nav bar, but also the height of the content section */
 	background-color: #81ccf2; 
 	z-index: 0;
@@ -29,7 +28,7 @@ nav {
 nav ul {
 	list-style-image: url('');
 	font-size: 20px;
-	list-style-type: none
+	list-style-type: none;
 	
 }
 
@@ -50,28 +49,26 @@ nav a:hover {
 }
 
 h1 {
-	background-image: url("sunset.jpg");
+	background-image: url("https://i.postimg.cc/yYqbvw5D/sunset.jpg");
 	background-size: 100% 100%;
-	width: 910px;  /* changes the banner side to side width. Higher number makes it longer horizontally */
-    height: 35px; /* changes top down length of banner. Higher number makes it taller */
+	width: 890px;  /* changes the banner side to side width. Higher number makes it longer horizontally */
+  height: 35px; /* changes top down length of banner. Higher number makes it taller */
 	color: white; /* font color */
 	
 	margin-bottom: -1px; /* moves banner section up and down */
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 42px;
 	margin-left: 330px; /* Moves the top banner to the right when higher number entered */
-    padding: 20px; /* also changes top down thickness of banner. Higher number makes it taller */
-	z-index: 2; /* top banner overlaps */
+  padding: 20px; /* also changes top down thickness of banner. Higher number makes it taller */
+	z-index: 0; /* top banner overlaps */
 
 }
 
 h2 {
 	color: #3399CC;
+  font-family: Georgia, "Times New Roman", serif;
 }
 
-h2 {
-	font-family: Georgia, "Times New Roman", serif;
-}
 
 .resort {
 	color:rgb(32, 125, 182);
@@ -79,7 +76,7 @@ h2 {
 }
 
 ul {
-	list-style-image: url('marker.gif');
+	list-style-image: url('https://i.postimg.cc/2S0TRJHF/marker.gif');
 }
 
 img[src="coast.jpg"] {
@@ -88,15 +85,15 @@ img[src="coast.jpg"] {
 
 
 #content {
-	z-index: 0;
 	background-color: white;
 	margin-left: 530px; /* Changes margin of content area horizontally. Higher = more to the right  */
 
-	margin-top: -690px; /* changes top down location of content area not including footer */
+	margin-top: -665px; /* changes top down location of content area not including footer */
 	font-size: 15px;
 	width: 670px; /* changes width of content area not including footer */
-	height: 549px; /* changes height of content area not including footer */
-	padding: 40px;
+	height: 540px; /* changes height of content area, affects footer */
+	padding: 30px;
+    margin-bottom: -10px; /* pushes footer down when higher number entered */
 	
 }
 
@@ -109,10 +106,11 @@ dt {
 footer {
 	background-color: white;
 	font-family: Georgia, "Times New Roman", serif;
+  font-size: 12px;
 	margin-left: 530px; /* changes margin of footer horizontally. Higher = more to the right  */
-	padding: 40px;
+	padding: 30px;
 	width: 670px;
-	margin-top: -80px;
-	margin-bottom: 600px;
+  height: 40px;
+  padding-bottom: 5px; /* changes the bottom height of the footer  */
 }
 
