@@ -9,7 +9,7 @@ body {
 }
 
 #wrapper {
-	margin-bottom: 400px;
+	margin-bottom: 300px;
   
   
 }
@@ -88,7 +88,7 @@ img[src="coast.jpg"] {
 	background-color: white;
 	margin-left: 530px; /* Changes margin of content area horizontally. Higher = more to the right  */
 
-	margin-top: -625px; /* changes top down location of content area not including footer */
+	margin-top: -655px; /* changes top down location of content area not including footer */
 	font-size: 15px;
 	width: 670px; /* changes width of content area not including footer */
 	height: 540px; /* changes height of content area, affects footer */
