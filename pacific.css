@@ -8,18 +8,20 @@ body {
 }
 
 nav {
-    left: 0; 
     width: 200px; 
-	height: 682px;
+	height: 670px; /*changes the size of sections */
 	background-color: #56a3ca;
 	z-index: 0;
-	padding-top: 20px;
+	padding-top: 5px;
+	margin-left: 110px;
+	
 }
 
 nav ul {
 	list-style-image: url('');
 	font-size: 20px;
 	list-style-type: none
+	
 }
 
 nav a:link {
@@ -41,16 +43,20 @@ nav a:hover {
 h1 {
 	background-image: url("sunset.jpg");
 	background-size: 100% 100%;
-	color: white;
-	margin-bottom: 0;
+	width: 900px; 
+    height: 35px; 
+	color: white; /* font color */
+	
+	margin-bottom: 10px; /* moves content up and down */
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 55px;
-	margin-left: -20px; /* Pushes the header to the right of the nav */
+	font-size: 42px;
+	margin-left: 110px; /* Pushes the top banner to the right of the nav */
     padding: 20px;
-	z-index: 1;
-	top: -25px;
+	z-index: 1; /* top banner overlaps */
+	top: -0px;
 
 }
+
 h2 {
 	color: #3399CC;
 }
@@ -72,11 +78,16 @@ img[src="coast.jpg"] {
 
 }
 
+
 #content {
 	background-color: white;
-	margin-left: 200px; 
-	padding: 30px;
-	margin-top: -727px;
+	margin-left: 310px; /* changes margin of content area. Higher = more to the right  */
+
+	margin-top: -720px;
+	font-size: 15px;
+	width: 670px; /* changes width of content area not including footer */
+	height: 600px;
+	padding: 40px;
 }
 
 #contact {
@@ -88,7 +99,9 @@ dt {
 footer {
 	background-color: white;
 	font-family: Georgia, "Times New Roman", serif;
-	margin-left: 200px; 
-	padding: 30px;
+	margin-left: 310px; /* changes margin of footer. Higher = more to the right  */
+	padding: 40px;
+	width: 670px;
+	margin-top: -90px;
 }
 
