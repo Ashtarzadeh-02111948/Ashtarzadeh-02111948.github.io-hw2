@@ -14,7 +14,7 @@ nav {
 	background-color: #81ccf2; 
 	z-index: 0;
 	padding-top: 5px;
-	margin-left: 430px; /* Changes margin of content area horizontally. Higher = more to the right  */
+	margin-left: 330px; /* Changes margin of content area horizontally. Higher = more to the right  */
 	
 }
 
@@ -51,7 +51,7 @@ h1 {
 	margin-bottom: -1px; /* moves banner section up and down */
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 42px;
-	margin-left: 430px; /* Moves the top banner to the right when higher number entered */
+	margin-left: 330px; /* Moves the top banner to the right when higher number entered */
     padding: 20px; /* also changes top down thickness of banner. Higher number makes it taller */
 	z-index: 2; /* top banner overlaps */
 
@@ -82,12 +82,12 @@ img[src="coast.jpg"] {
 #content {
 	z-index: 0;
 	background-color: white;
-	margin-left: 630px; /* Changes margin of content area horizontally. Higher = more to the right  */
+	margin-left: 530px; /* Changes margin of content area horizontally. Higher = more to the right  */
 
-	margin-top: -720px;
+	margin-top: -700px; /* changes top down location of content area not including footer */
 	font-size: 15px;
 	width: 670px; /* changes width of content area not including footer */
-	height: 620px; /* changes height of content area not including footer */
+	height: 600px; /* changes height of content area not including footer */
 	padding: 40px;
 	
 }
@@ -101,7 +101,7 @@ dt {
 footer {
 	background-color: white;
 	font-family: Georgia, "Times New Roman", serif;
-	margin-left: 630px; /* changes margin of footer horizontally. Higher = more to the right  */
+	margin-left: 530px; /* changes margin of footer horizontally. Higher = more to the right  */
 	padding: 40px;
 	width: 670px;
 	margin-top: -90px;
