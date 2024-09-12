@@ -8,9 +8,7 @@ body {
 }
 
 nav {
-	position: fixed; 
     left: 0; 
-    top: 110px; 
     width: 200px; 
 	height: 682px;
 	background-color: #56a3ca;
@@ -77,8 +75,9 @@ img[src="coast.jpg"] {
 
 #content {
 	background-color: white;
-	margin-left: 180px; 
+	margin-left: 200px; 
 	padding: 30px;
+	margin-top: -727px;
 }
 
 #contact {
@@ -90,7 +89,7 @@ dt {
 footer {
 	background-color: white;
 	font-family: Georgia, "Times New Roman", serif;
-	margin-left: 180px; 
+	margin-left: 200px; 
 	padding: 30px;
 }
 
