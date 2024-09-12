@@ -9,7 +9,7 @@ body {
 
 nav {
     width: 200px; 
-	height: 670px; /*changes the size of sections */
+	height: 670px; /*changes the size of sections? */
 	background-color: #56a3ca;
 	z-index: 0;
 	padding-top: 5px;
@@ -43,7 +43,7 @@ nav a:hover {
 h1 {
 	background-image: url("sunset.jpg");
 	background-size: 100% 100%;
-	width: 900px; 
+	width: 910px; 
     height: 35px; 
 	color: white; /* font color */
 	
