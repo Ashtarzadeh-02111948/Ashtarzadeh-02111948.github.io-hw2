@@ -3,14 +3,22 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 }
 body {
 	background-image: url("ptrbackground.jpg");
-	color: #00569f;
+	/* below code to make the background image not repeat at the bottom of the page and uses a solid color as instructed */
+	background-repeat: repeat-x;
+	background-color: #00569f;
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	margin-bottom: 400px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Formatting for navigation section  */
 nav {
     width: 200px; /*changes the width of nav bar, underlaps content section */
-	height: 705px; /*changes the length of nav bar, but also the height of the content section */
+	height: 660px; /*changes the length of nav bar, but also the height of the content section */
 	background-color: #81ccf2; 
 	z-index: 0;
 	padding-top: 5px;
@@ -84,10 +92,10 @@ img[src="coast.jpg"] {
 	background-color: white;
 	margin-left: 530px; /* Changes margin of content area horizontally. Higher = more to the right  */
 
-	margin-top: -700px; /* changes top down location of content area not including footer */
+	margin-top: -690px; /* changes top down location of content area not including footer */
 	font-size: 15px;
 	width: 670px; /* changes width of content area not including footer */
-	height: 600px; /* changes height of content area not including footer */
+	height: 549px; /* changes height of content area not including footer */
 	padding: 40px;
 	
 }
@@ -104,6 +112,7 @@ footer {
 	margin-left: 530px; /* changes margin of footer horizontally. Higher = more to the right  */
 	padding: 40px;
 	width: 670px;
-	margin-top: -90px;
+	margin-top: -80px;
+	margin-bottom: 600px;
 }
 
