@@ -7,13 +7,14 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Formatting for navigation section  */
 nav {
-    width: 200px; 
-	height: 670px; /*changes the size of sections? */
+    width: 200px; /*changes the width of nav bar, underlaps content section */
+	height: 705px; /*changes the length of nav bar, but also the height of the content section */
 	background-color: #56a3ca;
 	z-index: 0;
 	padding-top: 5px;
-	margin-left: 110px;
+	margin-left: 430px; /* Changes margin of content area horizontally. Higher = more to the right  */
 	
 }
 
@@ -52,7 +53,7 @@ h1 {
 	font-size: 42px;
 	margin-left: 410px; /* Pushes the top banner to the right of the nav */
     padding: 20px;
-	z-index: 1; /* top banner overlaps */
+	z-index: 2; /* top banner overlaps */
 	top: -0px;
 
 }
@@ -82,7 +83,7 @@ img[src="coast.jpg"] {
 #content {
 	z-index: 0;
 	background-color: white;
-	margin-left: 310px; /* changes margin of content area. Higher = more to the right  */
+	margin-left: 630px; /* Changes margin of content area horizontally. Higher = more to the right  */
 
 	margin-top: -720px;
 	font-size: 15px;
@@ -101,7 +102,7 @@ dt {
 footer {
 	background-color: white;
 	font-family: Georgia, "Times New Roman", serif;
-	margin-left: 310px; /* changes margin of footer. Higher = more to the right  */
+	margin-left: 630px; /* changes margin of footer horizontally. Higher = more to the right  */
 	padding: 40px;
 	width: 670px;
 	margin-top: -90px;
