@@ -7,6 +7,17 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+nav {
+	position: fixed; 
+    left: 0; 
+    top: 110px; 
+    width: 200px; 
+	height: 682px;
+	background-color: #56a3ca;
+	z-index: 0;
+	padding-top: 20px;
+}
+
 nav ul {
 	list-style-image: url('');
 	font-size: 20px;
@@ -28,14 +39,19 @@ nav a:hover {
 	color: #FFFFFF;
 	text-decoration: none;
 }
+
 h1 {
 	background-image: url("sunset.jpg");
 	background-size: 100% 100%;
 	color: white;
 	margin-bottom: 0;
-	padding: 10px;
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 55px;
+	margin-left: -20px; /* Pushes the header to the right of the nav */
+    padding: 20px;
+	z-index: 1;
+	top: -25px;
+
 }
 h2 {
 	color: #3399CC;
@@ -46,7 +62,8 @@ h2 {
 }
 
 .resort {
-	color:rgb(38, 110, 155);
+	color:rgb(32, 125, 182);
+	font-weight: bolder;
 }
 
 ul {
@@ -55,12 +72,13 @@ ul {
 }
 
 img[src="coast.jpg"] {
-	position: relative;
 
 }
 
 #content {
 	background-color: white;
+	margin-left: 180px; 
+	padding: 30px;
 }
 
 #contact {
@@ -72,5 +90,7 @@ dt {
 footer {
 	background-color: white;
 	font-family: Georgia, "Times New Roman", serif;
+	margin-left: 180px; 
+	padding: 30px;
 }
 
