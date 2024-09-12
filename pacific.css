@@ -88,12 +88,12 @@ img[src="coast.jpg"] {
 	background-color: white;
 	margin-left: 530px; /* Changes margin of content area horizontally. Higher = more to the right  */
 
-	margin-top: -665px; /* changes top down location of content area not including footer */
+	margin-top: -625px; /* changes top down location of content area not including footer */
 	font-size: 15px;
 	width: 670px; /* changes width of content area not including footer */
 	height: 540px; /* changes height of content area, affects footer */
 	padding: 30px;
-    margin-bottom: -10px; /* pushes footer down when higher number entered */
+  margin-bottom: -10px; /* pushes footer down when higher number entered */
 	
 }
 
