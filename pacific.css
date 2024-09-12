@@ -47,10 +47,10 @@ h1 {
     height: 35px; 
 	color: white; /* font color */
 	
-	margin-bottom: 10px; /* moves content up and down */
+	margin-bottom: 10px; /* moves content section up and down */
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 42px;
-	margin-left: 110px; /* Pushes the top banner to the right of the nav */
+	margin-left: 410px; /* Pushes the top banner to the right of the nav */
     padding: 20px;
 	z-index: 1; /* top banner overlaps */
 	top: -0px;
@@ -89,6 +89,7 @@ img[src="coast.jpg"] {
 	width: 670px; /* changes width of content area not including footer */
 	height: 600px;
 	padding: 40px;
+	
 }
 
 #contact {
