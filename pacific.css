@@ -80,6 +80,7 @@ img[src="coast.jpg"] {
 
 
 #content {
+	z-index: 0;
 	background-color: white;
 	margin-left: 310px; /* changes margin of content area. Higher = more to the right  */
 
