@@ -10,13 +10,11 @@ body {
 
 #wrapper {
 	margin-bottom: 300px; /* will add more space at the bottom of the page to show solid color  */
-  
-  
 }
 
 /* Formatting for navigation section  */
 nav {
-  width: 200px; /*changes the width of nav bar, underlaps content section */
+    width: 200px; /*changes the width of nav bar, underlaps content section */
 	height: 660px; /*changes the length of nav bar, but also the height of the content section */
 	background-color: #81ccf2; 
 	z-index: 0;
@@ -100,7 +98,6 @@ img[src="coast.jpg"] {
 #content {
 	background-color: white;
 	margin-left: 530px; /* Changes margin of content area horizontally. Higher = more to the right  */
-
 	margin-top: -665px; /* changes top down location of content area not including footer */
 	font-size: 15px;
 	width: 670px; /* changes width of content area not including footer */
