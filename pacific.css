@@ -6,10 +6,14 @@ body {
     background-repeat: repeat-x;
 	background-color: #00569f;
 	font-family: Arial, Helvetica, sans-serif;
+	margin: 0; /* Reset body margins */
+    padding: 0; /* Reset body padding */
 }
 
 #wrapper {
 	margin-bottom: 300px; /* will add more space at the bottom of the page to show solid color  */
+	margin: 0 auto; /* Center it if necessary */
+	padding: 0; /* Reset padding if needed */
 }
 
 /* Formatting for navigation section  */
@@ -46,6 +50,7 @@ nav a:hover {
 	text-decoration: none;
 }
 
+
 h1 {
 	background-image: url("https://i.postimg.cc/yYqbvw5D/sunset.jpg");
 	background-size: 100% 100%;
@@ -65,6 +70,8 @@ h1 {
 h2 {
 	color: #3399CC;
     font-family: Georgia, "Times New Roman", serif;
+	margin-top: -10px;
+	
 }
 
 
@@ -74,28 +81,49 @@ h2 {
 }
 
 
+p {
+ 
+	margin-top: -2px;
+	margin-bottom: -15px;
+	margin-left: 430px;
+	font-size: 16px;
+	line-height: 1.3;
+	width: 197px;
+  
+  }
+
+
 /* Found a way to target a child of a section to index the specific unordered list since html cannot be changed */
 #content ul:nth-of-type(1) {
 	list-style-image: url('https://i.postimg.cc/2S0TRJHF/marker.gif');
-    margin-left: 313px;
+    margin-left: 400px;
     font-size: 16px;
     line-height: 1.3;
-    padding-right: 150px;
-	margin-top: 27px;
+	margin-top: 50px;
+	width: 160px;
   
 }
+/* simulating wrap around image effect, could not figure out otherwise */
+
+#content > ul:last-of-type li:nth-last-child(-n+2) {
+	margin-left: -390px;
+ 
+}
+
 
 
 img[src="coast.jpg"] {
     float: left;
-    margin: 5px;
+	width: 60%;
     max-width: 100%;
-    margin-bottom: 10px;
+
     
 }
 
 
+
 #content {
+	
 	background-color: white;
 	margin-left: 530px; /* Changes margin of content area horizontally. Higher = more to the right  */
 	margin-top: -665px; /* changes top down location of content area not including footer */
@@ -104,21 +132,14 @@ img[src="coast.jpg"] {
 	height: 540px; /* changes height of content area, affects footer */
 	padding: 30px;
     margin-bottom: -10px; /* pushes footer down when higher number entered */
+
 	
 }
 
-p {
-  margin: 0;
-  margin-top: -2px;
-  margin-left: 340px;
-  font-size: 16px;
-  line-height: 1.6;
-  width: 197px;
 
-}
 
 #contact {
-	font-size: 90%;
+	font-size: 100%;
 }
 
 dt {
