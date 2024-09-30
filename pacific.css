@@ -8,10 +8,13 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0; /* Reset body margins */
     padding: 0; /* Reset body padding */
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 300px; /* will add more space at the bottom of the page to show solid color  */
+
 }
 
 #wrapper {
-	margin-bottom: 300px; /* will add more space at the bottom of the page to show solid color  */
 	margin: 0 auto; /* Center it if necessary */
 	padding: 0; /* Reset padding if needed */
 }
